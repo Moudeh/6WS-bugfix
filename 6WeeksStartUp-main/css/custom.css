@@ -1,0 +1,661 @@
+/* CUSTOM
+================================================== */
+
+
+.webkit-box {
+    width: 100%;
+    display: -webkit-box;
+    display: flex;
+    -moz-box-flex: initial;
+}
+
+/*#home { height: 105vh !important;}*/
+/*.rev_slider { height: 105vh !important;}*/
+
+hr {
+    border-top: 1px solid #eeeeee;
+}
+
+.line-service {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.tp-loop-wrap {
+    margin: 0px 0 0 -120px;
+}
+
+.slider-grafik {
+    width: 150px;
+}
+
+.service-item-box.style-3 .icon-holder {
+    background-color: #fff !important;
+}
+
+.four-steps {
+    float: left;
+    background: #fafafa;
+    /*box-shadow: 0px 0px 33px #F0F0F0;*/
+    padding: 30px 0px;
+    border-radius: 30px;
+    width: 24%;
+    margin: 0 1% 0 0%;
+}
+
+.three-steps {
+    float: left;
+    background: #fafafa;
+    /*box-shadow: 0px 0px 33px #F0F0F0;*/
+    padding: 30px 0px;
+    border-radius: 30px;
+    width: 32%;
+    margin: 0 1% 0 0%;
+}
+
+
+.pic-arrow-left {
+    position: absolute;
+    margin: 0 0 0 -1%;
+    width: 80px;
+}
+
+.pic-arrow-left-long {
+    position: absolute;
+    margin: -100px 0 0 -3%;
+    width: 80px;
+}
+
+.pic-arrow-right {
+    position: absolute;
+    margin: -150px 12% 0 0;
+    right: 0 !important;
+    width: 60px;
+}
+
+
+.modul-box {
+    z-index: 100;
+    /*box-shadow: 0px 0px 10px #D8D8D8;*/
+}
+
+.back-to-site {
+    margin: 60px 0 0;
+}
+
+.glossar-trenner {
+    color: #ccc;
+    margin: 0 0.5%;
+}
+
+.glossar-to-top {
+    margin: 0 0 0 16px;
+    text-decoration: underline;
+}
+
+.slider-video .video-box {
+    /*margin-left: 500px !important;*/
+}
+
+
+.grafik-top-right {
+    position: absolute;
+    right: 1%;
+    top: 10px;
+    z-index: 50;
+    width: 110px;
+    box-shadow: 3px 3px 4px #E8E8E8;
+}
+
+.grafik-top-left {
+    position: absolute;
+    left: 1%;
+    top: 10px;
+    z-index: 50;
+    width: 110px;
+    box-shadow: 3px 3px 4px #E8E8E8;
+}
+
+.book-tip-pic {
+    margin: 0 0 20px;
+    box-shadow: 3px 3px 5px #D8D8D8;
+}
+
+
+.section-team-couch {
+    height: 85vh;
+    padding: 100px 0;
+    background: url(../img/_backgrounds/img-00.jpg);
+    background-size: cover;
+    background-position: center;
+    /*background-attachment: fixed;*/
+    overflow: hidden;
+}
+
+.row.team-couch {
+    float: left;
+    width: 75%;
+    margin-top: -100px;
+}
+
+.row.team-description {
+    background: url(../img/_grafik/img-06.png);
+    background-size: cover;
+    float: left;
+    width: 23%;
+    margin: 0 0 0 4%;
+    padding: 20px 0 0 0;
+    overflow: hidden;
+    height: 800px;
+}
+
+
+.team-couch-pic-01 {
+    -webkit-transition: all 0.3s ease-in-out !important;
+    -moz-transition: all 0.3s ease-in-out !important;
+    -ms-transition: all 0.3s ease-in-out !important;
+    -o-transition: all 0.3s ease-in-out !important;
+    transition: all 0.3s ease-in-out !important;
+    background: url(../img/_team/img-robert-freitag-alt.png);
+    background-size: cover;
+    min-height: 270px;
+}
+
+.team-couch-pic-01:hover {
+    background: url(../img/_team/img-robert-freitag.png);
+    background-size: cover;
+    min-height: 270px;
+}
+
+
+.paket-overlay {
+    content: '';
+    display: block;
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    opacity: 1;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.arrows i {
+    color: #fff !important;
+}
+
+.bullets.whitedots li::before {
+    color: #fff !important;
+}
+
+.rotate-head {
+    transform: rotate(-2deg);
+    margin: 7% 0 0 -5%;
+    width: 110%;
+    background-image: url(../img/_slider/bg-slider-01.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 10;
+}
+
+.slider-head {
+    margin: 0 0 0 4%;
+    padding: 0 15% 0 0;
+}
+
+.slider-headsub {
+    color: #fff;
+    /*font-size: 30rem;*/
+    text-shadow: 13px 13px 10px #000;
+    padding: 0 10% 0;
+    letter-spacing: -5px;
+    text-align: right;
+    margin: -1% 0 0;
+}
+
+.slider-subhead {
+    background-image: url(../img/_slider/bg-slider-02.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-shadow: 1px 1px #eaae2d, -6px -6px #000;
+    font-size: 80px;
+    text-align: right;
+    margin: -3% 6% 0 0;
+    padding: 30px;
+    float: right;
+}
+
+.col-left {
+    margin: 0 0 0 -3%;
+}
+
+.section-head {
+    background-image: url(../img/_grafik/headline-bg.png);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: #fafafa;
+    text-shadow: 1px 1px #eaae2d, -6px -6px #000;
+    text-shadow: 3px 3px 3px black, 3px -3px 3px black, -3px 3px 3px black, -3px -3px 3px black;
+    font-size: 80px;
+    /*padding: 0 0 0 7%;*/
+    /*margin: 0 0 60px;*/
+    text-align: center;
+}
+
+.section-head a {
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.section-head a:hover {
+    color: #e9e803;
+}
+
+.section-head-sm {
+    background-image: url(../img/_grafik/headline-bg-sm.png);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: #fafafa;
+    text-shadow: 1px 1px #eaae2d, -6px -6px #000;
+    text-shadow: 3px 3px 3px black, 3px -3px 3px black, -3px 3px 3px black, -3px -3px 3px black;
+    font-size: 80px;
+    padding: 0 0 0 7%;
+    margin: 0 0 60px;
+    text-align: center;
+}
+.section-head-sm-1 {
+    background-image: url(../img/_grafik/sliderheadline-02.svg);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: #fafafa;
+    text-shadow: 1px 1px #eaae2d, -6px -6px #000;
+    text-shadow: 3px 3px 3px black, 3px -3px 3px black, -3px 3px 3px black, -3px -3px 3px black;
+    font-size: 80px;
+    /*padding: 0 0 0 7%;*/
+    /*margin: 0 0 60px;*/
+    text-align: center;
+}
+
+.netzwerk-wrapper {
+    background-position: left;
+    background-size: cover;
+    color: #fccb36;
+    text-shadow: 2px 2px 2px black, 2px -2px 2px black, -2px 2px 2px black, -2px -2px 2px black;
+    font-size: 42px;
+    padding: 10px 0;
+    margin: -50px 0 0 0;
+}
+
+/*.netzwerk-wrapper.head-01 {
+    background-image: url(../img/_grafik/netzwerk-head-box-01.svg);}
+.netzwerk-wrapper.head-02 {
+    background-image: url(../img/_grafik/netzwerk-head-box-02.svg);}
+.netzwerk-wrapper.head-03 {
+    background-image: url(../img/_grafik/netzwerk-head-box-03.svg);}
+
+*/
+
+/*.bewerb {
+    position: absolute;
+    z-index: 10;
+    width: 350px;
+    right: 7%;
+}*/
+
+.countdown-slider {
+    /*position: absolute;*/
+    transform: rotate(-2deg) !important;
+    -moz-transform: rotate(-2deg) !important;
+    -webkit-transform: rotate(-2deg) !important;
+    /*background: #cc008f;*/
+    background-image: url(../img/_grafik/bewerbung-countdown.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0px 0px 0px 37%;
+    z-index: 50;
+    width: 300px;
+    height: 252px;
+}
+
+.pricing-table.first {
+    transform: rotate(-2deg) !important;
+    -moz-transform: rotate(-2deg) !important;
+    -ms-transform: rotate(-2deg) !important;
+    -o-transform: rotate(-2deg) !important;
+    -webkit-transform: rotate(-2deg) !important;
+}
+
+.pricing-table.second {
+    margin: -60px 0 0;
+}
+
+.pricing-table.third {
+    transform: rotate(4deg) !important;
+    -moz-transform: rotate(4deg) !important;
+    -ms-transform: rotate(4deg) !important;
+    -o-transform: rotate(4deg) !important;
+    -webkit-transform: rotate(4deg) !important;
+}
+
+
+/* SECTION IMAGE
+================================================== */
+.container-skyline {
+    position: absolute;
+    z-index: 10;
+    /*width: 100%;*/
+    /*height: 100%;*/
+}
+
+.container-skyline img {
+    margin: -9.9% 0 0;
+}
+
+.container-bottom {
+    position: absolute;
+    z-index: 10;
+    /*width: 100%;*/
+    /*height: 100%;*/
+}
+
+.container-bottom img {
+    margin: 0% 0 0;
+}
+
+footer {
+    padding-top: 120px;
+}
+
+footer p {
+    font-size: 14px;
+    color: #fafafa;
+}
+
+
+.netzwerk-box-01 {
+    padding: 20px;
+    background-color: #009ddc;
+    background-image: url(../img/_grafik/netzwerk-box-01.svg);
+    background-position: center right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+.netzwerk-box-02 {
+    padding: 20px;
+    border: 5px solid #111;
+    border-radius: 8px;
+    background: rgb(29, 7, 64);
+    background: linear-gradient(180deg, rgba(195, 51, 143, 1) 0%, rgba(29, 7, 64, 1) 100%);
+}
+
+.netzwerk-box-03 {
+    padding: 20px;
+    /*background-color: #009ddc;*/
+    /*background-image: url(https://theraeasy.de/_7ws/7ws-loesch.jpg);*/
+    /*background-position: center;*/
+    /*background-size: cover;*/
+    /*background-repeat: no-repeat;*/
+    /*background-attachment: scroll;*/
+    border: 5px solid #111;
+    border-radius: 8px;
+    background: rgb(29, 7, 64);
+    background: linear-gradient(180deg, rgba(29, 7, 64, 1) 0%, rgba(195, 51, 143, 1) 100%);
+}
+
+.video-box.netzwerkpartner {
+    position: relative;
+    margin: -40px 0 0;
+    box-shadow: 0px 0px 20px #707070;
+    border-radius: 8px;
+}
+
+.websitebutton {
+    width: 200px;
+    margin: 0px 0 0 0;
+    position: absolute;
+}
+
+/*.ref-pic {
+    width: 500px;
+    position: absolute;
+    right: -21%;
+    top: -190px;
+}
+*/
+.ref-disc {
+    font-weight: 700;
+    width: 100px;
+    display: inline-block;
+}
+
+.modal-body .video-box {
+    margin-bottom: 20px;
+}
+
+.pakete-box-facts p {
+    font-size: 14px;
+}
+
+
+.introbannerslider {
+    /*margin-top: 7%;*/
+
+}
+
+.bewerbungsbutton {
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    float: left;
+    margin: 0px 20px 0 0px;
+}
+.bewerbungsbutton:hover {
+    float: left;
+    opacity: 0.5;
+}
+
+.hover-overlay.maria {
+    /*background-color: rgba(255, 255, 255, 0.9);*/
+    background-image: url(../img/_team/img-maria-kauffmann-alt.png);
+    background-position: top center;
+}
+.hover-overlay.robert {
+    /*background-color: rgba(255, 255, 255, 0.9);*/
+    background-image: url(../img/_team/img-robert-freitag-alt.png);
+    background-position: top center;
+}
+
+.hover-overlay.patrick {
+    /*background-color: rgba(255, 255, 255, 0.9);*/
+    background-image: url(../img/_team/img-patrick-neumann-alt.png);
+    background-position: top center;
+}
+
+.hover-overlay.marie {
+    /*background-color: rgba(255, 255, 255, 0.9);*/
+    background-image: url(../img/_team/img-marie-gallinge-alt.png);
+    background-position: top center;
+}
+
+.hover-overlay.schadi {
+    /*background-color: rgba(255, 255, 255, 0.9);*/
+    background-image: url(../img/_team/img-schadi-sabri-alt.png);
+    background-position: top center;
+}
+
+.hover-overlay.sabrina {
+    /*background-color: rgba(255, 255, 255, 0.9);*/
+    background-image: url(../img/_team/img-sabrina-hager-alt.png);
+    background-position: top center;
+}
+
+.hover-overlay.rana {
+    /*background-color: rgba(255, 255, 255, 0.9);*/
+    background-image: url(../img/_team/img-rana-abdelal-alt.png);
+    background-position: top center;
+}
+
+.hover-overlay.unknown {
+    /*background-color: rgba(255, 255, 255, 0.9);*/
+    background-image: url(../img/_team/img-unknown-alt.png);
+    background-position: top center;
+}
+
+
+/* BACKGROUNDS
+================================================== */
+
+.bg-loader {
+    background-color: #fafafa;
+    background-image: url(../img/_loader/gif-01.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    /*height: 100vh;*/
+}
+
+/* auf settings.css muss noch
+    .tp-loader.spinner4 auf display: none;
+================================================== */
+
+
+.bg-weeks {
+    background-color: #1f1f1f;
+}
+
+.bg-slider {
+    /*background-color: #F7F7F7;*/
+    background-image: url(../img/_slider/img-01.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /*height: 100vh;*/
+}
+
+.bg-intro {
+    /*background: #F7FBFC;*/
+    background-image: url(../img/_backgrounds/img-01.png);
+    background-attachment: scroll;
+    /*background-size: cover;*/
+    /*background-position: top center;*/
+}
+
+.bg-body {
+    /*background-color: #111;*/
+    background-image: url(../img/_slider/img-01.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /*height: 100vh;*/
+}
+
+.bg-price {
+    /*background-color: #111;*/
+    /*background-image: url(../img/_grafik/price-bg.png);*/
+    /*background-position: top center;*/
+    /*background-repeat: no-repeat;*/
+    /*background-attachment: scroll;*/
+    /*background-size: contain;*/
+}
+
+.bg-referenzen {
+    /*background-color: #111;*/
+    /*background-size: cover;*/
+    background: #0f0000;
+    background: rgb(213, 10, 131);
+    background: linear-gradient(180deg, rgb(213, 10, 131) 0%, rgb(0, 0, 51) 100%);
+    width: 102%;
+    margin: 0 0 63px -1%;
+    transform: rotate(3deg) !important;
+    -moz-transform: rotate(3deg) !important;
+    -ms-transform: rotate(3deg) !important;
+    -o-transform: rotate(3deg) !important;
+    -webkit-transform: rotate(3deg) !important;
+}
+
+.bg-call-to-action {
+    background-color: #000033;
+    background-image: url(../img/_backgrounds/img-02.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /*border-top: 6px solid #bc007f;*/
+    /*border-bottom: 6px solid #bc007f;*/
+
+    -webkit-transition: all 0.3s ease-in-out !important;
+    -moz-transition: all 0.3s ease-in-out !important;
+    -ms-transition: all 0.3s ease-in-out !important;
+    -o-transition: all 0.3s ease-in-out !important;
+    transition: all 0.3s ease-in-out !important;
+}
+
+/*.bg-call-to-action:hover {
+    opacity: 0.5;
+}*/
+
+.bg-service {
+    background-color: #000033;
+    background-image: url(../img/_backgrounds/img-04.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /*height: 100vh;*/
+}
+
+.bg-contact {
+    background-color: #000033;
+    background-image: url(../img/_backgrounds/img-04.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /*height: 100vh;*/
+}
+
+.bg-footer {
+    /*background-image: url(../img/_backgrounds/img-04.jpg);*/
+    /*background-position: center;*/
+    /*background-repeat: no-repeat;*/
+    /*background-attachment: fixed;*/
+    /*background-size: cover;*/
+    background: rgb(0, 0, 51);
+    border-top: 10px solid #222;
+
+    background: rgb(213, 10, 131);
+    background: linear-gradient(180deg, rgba(0, 0, 51, 1) 0%, rgba(213, 10, 131, 0.8) 100%);
+}
+
+
+/* NAME
+================================================== */
+
+/* NAME
+================================================== */
+
+/* NAME
+================================================== */
+
+/* NAME
+================================================== */
+
+/* NAME
+================================================== */
+
+/* NAME
+================================================== */
+

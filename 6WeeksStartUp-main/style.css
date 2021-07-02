@@ -1,0 +1,57 @@
+/* PHONE VERSION */
+@media only screen and (min-width: 320px) {
+    .TeamSegmentBigScreen {
+        display: none !important;
+    }
+}
+
+/* TABLET VERSION */
+@media only screen and (min-width: 768px) {
+    .TeamSegmentBigScreen {
+        display: none !important;
+    }
+}
+
+/* DESKTOP VERSION */
+@media only screen and (min-width: 980px) {
+    .TeamSegmentBigScreen {
+        display: block !important;
+    }
+}
+
+/**/
+/**/
+/**/
+.SmallScreenTeamSegment {
+    position: relative;
+    text-align: center;
+}
+
+/* PHONE VERSION */
+@media only screen and (min-width: 320px) {
+    .SmallScreenTeamSegment {
+        display: block !important;
+    }
+}
+
+/* TABLET VERSION */
+@media only screen and (min-width: 768px) {
+    .SmallScreenTeamSegment {
+        display: block !important;
+    }
+}
+
+/* DESKTOP VERSION */
+@media only screen and (min-width: 980px) {
+    .SmallScreenTeamSegment {
+        display: none !important;
+    }
+}
+
+/**/
+/**/
+/**/
+.polyTeamImage{
+    /*clip-path: polygon(50% 0%, 0% 100%, 100% 100%);*/
+}
+

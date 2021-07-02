@@ -1,0 +1,127 @@
+
+/* RESPONSIVE
+================================================== */
+
+
+@media only screen and (max-width: 1700px) {
+  .display-1700-none {display: none!important;}
+  .display-1700 {display: block!important;}
+  /*.slider-headsub {font-size: 22rem;}*/
+
+
+
+}
+@media only screen and (max-width: 1500px) {
+  .display-1500-none {display: none!important;}
+  .display-1500 {display: block!important;}
+  .slider-head {font-size: 120px;}
+  .slider-headsub {margin: -2% 0 0;}
+
+}
+@media only screen and (max-width: 1200px) {
+  .display-1200-none {display: none!important;}
+  .display-1200 {display: block!important;}
+  /*#sticky-nav {background: #fff;}*/
+  /*#sticky-nav {position: fixed;top: 0;}*/
+  .navbar {margin: 0px 0 0;}
+  .navbar-nav > li > a {
+    padding: 0 10px; font-size: 10px;
+  }
+  .tp-loop-wrap {margin: 0px 0% 0 0%;}
+  .rotate-head{margin: 10% 0 0 -5%;}
+  /*.slider-head {font-size: 100px;}*/
+  /*.slider-subhead {font-size: 60px;}*/
+  .pricing-price {font-size: 80px;}
+  .pricing-currency {margin: 17px -10px 0 -15px;font-size: 34px;}
+
+}
+@media only screen and (max-width: 991px) {
+  /*body {background-attachment: scroll !important;}*/
+  .display-991-none {display: none!important;}
+  .display-991 {display: block!important;}
+  .navbar-nav > li > a {padding: 20px;}   /*!!!!!!!*/
+  .offset-top .container {margin-top: -170px;}
+  .page-title {margin-top: 50px;}
+
+  .four-steps {width: 50%;margin: 0 0% 0 0%;}
+  .three-steps {width: 94%;margin: 0 3% 0 3%;}
+  .fl_right-left {float: left !important;}
+  .row.team-couch {width: 100%;}
+  .row.team-description {width: 100%;}
+  .cont {height: 170vh !important;}
+  .el__heading {
+    min-width: 100px;
+    transform: rotate(-90deg) !important;
+    -moz-transform: rotate(-90deg) !important;
+    -ms-transform: rotate(-90deg) !important;
+    -o-transform: rotate(-90deg) !important;
+    -webkit-transform: rotate(-90deg) !important;
+  }
+  .text-inner-head {
+    font-size: 18px !important;
+    line-height: 24px !important;
+  }
+  .text-inner-text {
+      font-size: 16px !important;
+      margin-top: 0px !important;
+      margin-bottom: 0px !important;
+  }
+  /*.slider-head {font-size: 80px;}*/
+  .slider-headsub {margin: -4% 0 0;}
+  .countdown-slider {
+    transform: rotate(2deg) !important;
+    -moz-transform: rotate(2deg) !important;
+    -webkit-transform: rotate(2deg) !important;
+    margin: 60px 0px 0px 20px; }
+  .overlap-bg-section {
+    padding-bottom: 100px !important;
+  }
+  .netzwerk-box-01,.netzwerk-box-02, .netzwerk-box-03 {background-size: cover;}
+
+
+
+}
+@media only screen and (max-width: 767px) {
+  .display-767-none {display: none!important;}
+  .display-767 {display: block!important;}
+  /*.slider-head {font-size: 60px;letter-spacing: -2px;}*/
+  /*.slider-headsub {font-size: 6rem;letter-spacing: -2px;}*/
+  .slider-subhead {font-size: 30px;text-align: center;}
+  /*.bewerb {width: 160px;}*/
+  .bg-price {background-image: none;}
+  .pricing-table.first {transform:rotate(0deg)!important;-moz-transform: rotate(0deg)!important;-ms-transform: rotate(0deg)!important;-o-transform: rotate(0deg)!important;-webkit-transform: rotate(0deg)!important;}
+  .pricing-table.second {margin: 0px 0 20px;}
+  .pricing-table.third {transform:rotate(0deg)!important;-moz-transform: rotate(0deg)!important;-ms-transform: rotate(0deg)!important;-o-transform: rotate(0deg)!important;-webkit-transform: rotate(0deg)!important;}
+  .pricing-price {font-size: 50px;}
+  .pricing-currency {margin: 10px -10px 0 -10px;}
+  .countdown-slider {margin: 50px 0px 0px 0px;
+    width: 260px;
+    height: 222px;}
+  .el__heading {font-size: 45px;}
+  .section-head {font-size: 50px;}
+  .section-head-sm {font-size: 50px;}
+
+
+}
+@media only screen and (max-width: 600px) {
+  .display-600-none {display: none!important;}
+  .display-600 {display: block!important;}
+  .four-steps {width: 94%;margin: 0 3% 0 3%;  }
+}
+@media only screen and (max-width: 500px) {
+  .display-500-none {display: none!important;}
+  .display-500 {display: block!important;}
+  .slider-headsub {margin: -12% 0 0;}
+
+}
+@media only screen and (max-width: 440px) {
+  .display-440-none {display: none!important;}
+  .display-440 {display: block!important;}
+
+
+
+
+
+
+  
+}
